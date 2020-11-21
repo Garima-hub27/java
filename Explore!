@@ -1,0 +1,25 @@
+class Fallthrough
+{
+public static void main (String arts[])
+{
+int c =11;
+switch (c)
+{
+case 11:
+case12:
+case 1:
+case12:System.out.println("these are months of cold in India");
+break;
+case3:
+case4:
+case5:
+case6:
+case 7:System.out.println("these are months of heat in India");
+break;
+case8:
+case9:
+case10:System.out.println("these are months of rain in India");
+break;
+}
+}
+}
